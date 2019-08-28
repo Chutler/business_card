@@ -1,0 +1,52 @@
+body {
+    /* background-color: #f2fcfc; */
+    /* background-color: #ebeef0; */
+    /* background-color: #f5f6f7; */
+    background-color: #f2f9ff;
+}
+
+a:hover {
+    background-color: yellow;
+  }
+
+.align-items-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+#name {
+    /* border: 1px solid slategrey; */
+    /* Remove right border */
+    /* background-color: #ff9999; */
+    /* color: #4da6ff; */
+    color: #4d545c;
+    /* font-family: 'Racing Sans One', cursive; */
+    /* font-family: 'Coda Caption', sans-serif; */
+    /* font-family: 'Baloo Bhaina', cursive; */
+    font-family: 'Bungee', cursive;
+    /* font-family: 'Bungee Inline', cursive; */
+    /* font-family: 'Baloo Bhai', cursive; */
+    /* font-family: 'Bungee Shade', cursive; */
+}
+
+#headshot {
+    /* border: 1px solid slategrey; */
+    background-image: url(../img/Bend_Concert.jpg);
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    /* background-image: url("http://craighutler.com/ch_bg.jpg");
+    height: 100vh;  */
+    background-position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+#about {
+    /* border: 1px solid slategrey; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* background-color: #cce6ff; */
+    color: #4d545c;
+}

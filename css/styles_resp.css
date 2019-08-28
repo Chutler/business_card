@@ -1,0 +1,45 @@
+body {
+    background-color: #f2f9ff;
+}
+
+a:link {
+    color: #4d545c;
+}
+a:visited {
+    color: #4d545c;
+}
+
+.align-items-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+#name {
+    color: #4d545c;
+    font-family: 'Bungee', cursive;
+}
+
+#headshot {
+    /* border: 1px solid slategrey; */
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+#about {
+    color: #4d545c;
+}
+
+#about a:link {
+    text-decoration-line: underline;
+}
+
+#about a:hover {
+    background-color: yellow;
+}
