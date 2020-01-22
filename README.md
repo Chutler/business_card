@@ -21,7 +21,8 @@ An HTML page built as a simple landing page for my personal domain. It leverages
 
 ## Link to live site:
 
-[craighutler.com](https://www.craighutler.com "Craig Hutler personal page")
+* [craighutler.com](https://www.craighutler.com "Craig Hutler personal page")
+* https://chutler.github.io/business_card/
 
 ## Known Bugs
 
